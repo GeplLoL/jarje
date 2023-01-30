@@ -43,3 +43,25 @@
 #for i in range(0,x[2]):
 #    print(y, end="")
 #print("")
+from random import *
+#opilased = ["Juhan","Kati","Mario","Mario","Mati","Juhan"]
+#nimi = input("Mis nimi on otsida: ")
+
+#while nimi not in opilased:
+#    nimi = input("Mis nimi on otsSida: ")
+#x= opilased.count(nimi)
+#if x>1:
+#    print(opilased.index(nimi,0, 5))
+#    opilased.remove(nimi)
+#    x-=1
+#    if x==1:
+#        print(opilased.index(nimi,0, 5)+1)
+
+
+
+x=[1,2,3]
+kis= input("kinte 4to nibud: (bumaga,nosznitsi,kamen)")
+a= x[randint(0,2)]
+print(a)
+if kis==a:
+    print("ni4ja")
